@@ -22,7 +22,7 @@ $censoredpassword=str_replace($password, "*****...", $password);
     <section>
         <h2>Codyfied</h2>
         <h4>username: <?php echo $username ?> <br><br><?php echo strlen($username)?></h4>
-        <h4>password: <?php echo $censoredpassword ?><?php echo strlen($password)?></h4>
+        <h4>password: <?php echo $censoredpassword ?><br><?php echo strlen($password)?></h4>
     </section>
 </body>
 </html>
