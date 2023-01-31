@@ -16,13 +16,13 @@ $censoredpassword=str_replace($password, "*****...", $password);
     <h1>Welcome <?php echo $_GET['username']; ?></h1>
     <section>
         <h2>Visible</h2>
-        <h4>Username: <?php echo $username ?><br><?php echo strlen($username)?></h4>
-        <h4>password: <?php echo $password ?><br><?php echo strlen($password)?></h4>
+        <h4>Username: <?php echo $username ?> <br><?php echo strlen($username)?></h4>
+        <h4>password: <?php echo $password ?> <br><?php echo strlen($password)?></h4>
     </section>
     <section>
         <h2>Codyfied</h2>
-        <h4>username: <?php echo $username ?> <br><br><?php echo strlen($username)?></h4>
-        <h4>password: <?php echo $censoredpassword ?><br><?php echo strlen($password)?></h4>
+        <h4>username: <?php echo $username ?> <br><?php echo strlen($username)?></h4>
+        <h4>password: <?php echo $censoredpassword ?> <br><?php echo strlen($password)?></h4>
     </section>
 </body>
 </html>
