@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rebeccapurple;
+    margin: 1rem;
+}
+
+button {
+    margin-left: 2rem;
+    padding: 5px 10px;
+    border: none;
+    color: #fff;
+    background-color: green;
+    font-size: 21px;
+}
+
+input {
+    margin: 0 1rem;
+    padding: 5px 3px;
+    font-size: 21px;
+}
